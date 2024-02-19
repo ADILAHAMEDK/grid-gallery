@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 130px;
+    margin-left: 210px;
+}
+
+.photo-container { 
+    position: relative;
+    height: 250px;
+    width: 300px;
+}
+
+.photo-container img {
+    position: absolute;
+    top: 20px;
+    left: 75px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.name {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.job-position {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+
+.background-color-1 {
+    background-color: rgb(222, 231, 237);
+}
+
+.background-color-2 {
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
